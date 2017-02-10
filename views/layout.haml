@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %title Super Awesome Webapp
+
+    %meta{ charset: "utf-8" }
+
+  %body
+    .content.body
+      = yield
+
+    %footer
+      .count
+        Running version:
+        = @version
+      .host
+        Served by:
+        = whoami

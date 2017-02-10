@@ -1,0 +1,6 @@
+version: '2'
+services:
+  app:
+    command: "shotgun -o 0.0.0.0 -p 3000"
+    volumes:
+      - .:/app

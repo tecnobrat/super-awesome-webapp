@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app:
+    build: .
+    ports:
+      - "3000"
+    environment:
+      - 'VERSION=1.0.0'
+    labels:
+      - "SERVICE_3000_NAME=super-awesome-webapp"
+      - "SERVICE_3000_TAGS=load-balance"
