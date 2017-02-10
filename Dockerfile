@@ -1,4 +1,4 @@
-FROM articulate/articulate-ruby:2.3
+FROM ruby:2.3
 
 RUN mkdir /app
 WORKDIR /app
